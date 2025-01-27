@@ -61,6 +61,8 @@ const Home = () => {
                 const fileBlob = await createExcelFile(reportData);
                 setFiles({excel: fileBlob});
             }
+            
+            if(!files?.pdf){}
 
             await sendEmailService(email, files);
             alert("O email foi enviado com sucesso!");
@@ -93,6 +95,8 @@ const Home = () => {
             <div className={styles.innerContainerRight}>
                 <p className={styles.textSecondTitle}>Relatório</p>
 
+                {/* <button className={styles.btnStandard}>Acessar</button>
+                <button className={styles.btnStandard}>Exportar PDF</button> */}
                 <button className={styles.btnStandard} onClick={handleExportExcel}>Baixar Excel</button>
 
                 <br/><br/><br/><br/>

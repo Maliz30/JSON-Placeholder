@@ -46,3 +46,7 @@ export const downloadExcelFile = (fileBlob) => {
         console.error(err);
     }
 }
+
+export const createPDFFile = async () => {
+
+}
