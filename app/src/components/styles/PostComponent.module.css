@@ -1,0 +1,21 @@
+.container{
+    background-color: #f4f3f7;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    padding: 4px 25px;
+    margin: 20px 10px;
+}
+
+.title{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 17x;
+    font-weight: bold;
+    color: #5c1616;
+
+}
+
+.text{
+    font-size: 15px;
+    color: #5c1616;
+
+}

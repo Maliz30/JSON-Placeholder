@@ -1,0 +1,23 @@
+.container{
+    background-color: #f4f3f7;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    padding: 20px 25px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.textName{
+    font-size: 17x;
+    font-weight: bold;
+    color: #5c1616;
+    margin: 0px;
+}
+
+.textId, .textNumPosts{
+    font-size: 14px;
+    color: #5c1616;
+    margin: 0px;
+}

@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.innerContainerOne{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 25px;
+}
+
+.innerContainerTwo{
+    padding: 5px 35px;
+
+}
+
+.containetOneLeft{
+    width: 65%;
+}
+
+.containetOneRight{
+    width: 35%;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.btnComeback{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+    border: none;
+    margin: 10px 0px 25px;
+    width: 75px;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #460f0f;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.textUserName{
+    font-weight: bold;
+    color: #460f0f;
+    font-size: 25px;
+}
+
+.textId, .textAverage, .textNumPosts, .textNoPost{
+    color: #5c1616;
+
+} 
+
+.textUserName, .textId{
+    margin: 0px 20px;
+}
+
+.textNumPosts{
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.textNoPost{
+    text-align: center;
+}

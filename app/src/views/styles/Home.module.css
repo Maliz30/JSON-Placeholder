@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    justify-content: space-between;
+}
+
+.innerContainerLeft{
+    width: 65%;
+}
+
+.innerContainerRight{
+    width: 30%;
+}
+
+.btnUser{
+    cursor: pointer;
+}
+
+.btnStandard{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+    border: none;
+    margin: 10px;
+    padding: 7px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #460f0f;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 240px;
+}
+
+.inputStandard{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+    border: none;
+    margin: 5px 10px;
+    padding: 7px 15px;
+    width: 210px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.inputStandard:focus{
+    outline: none;
+}
+
+.textTitle{
+    font-weight: bold;
+    color: #460f0f;
+    font-size: 25px;
+}
+
+.textSecondTitle{
+    font-weight: bold;
+    color: #460f0f;
+    font-size: 15px;
+}
