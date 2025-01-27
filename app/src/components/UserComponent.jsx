@@ -10,9 +10,6 @@ const UserComponent = ( props ) => {
                 <p className={styles.textName}>{name}</p>
                 <p className={styles.textId}>id: {id}</p>
             </div>
-            <div>
-                <p className={styles.textNumPosts}>Quantidade de posts?</p>
-            </div>
         </div>
     )
 }
